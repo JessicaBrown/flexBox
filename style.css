@@ -1,0 +1,56 @@
+body,html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+div {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width:100%;
+    height: 100%;
+}
+.bigbox {
+    width: 90%;
+    height: 40%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lilbox {
+    width: 30%;
+    height: 30%;
+}
+.minibox {
+    width: 30%;
+    height: 30%;
+}
+.pink {
+    background-color: pink;
+}
+.peru {
+    background-color: peru;
+}
+.antiquewhite {
+    background-color: antiquewhite;
+}
+.green {
+    background-color: green;
+}
+.gold {
+    background-color:gold;
+}
+.grey {
+    background-color: grey;
+}
+.aqua {
+    background-color: aqua;
+}
+.purple {
+    background-color: purple;
+}
